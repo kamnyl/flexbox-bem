@@ -1,0 +1,96 @@
+body {
+  background-color: #f3d2c1;
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+}
+
+.main-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.card {
+  width: 45%;
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f49ebf;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  background-color: #e8cdbf;
+  border-radius: 4px;
+  min-width: 78px;
+  min-height: 78px;
+}
+
+.card--left {
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.card--stretched {
+  gap: 10px;
+  justify-content: center;
+}
+
+.card--right {
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card--mixed {
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.item--bottom {
+  align-self: flex-end;
+}
+
+
+.card--text {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* I have tried everything here, but without changing the margins, 
+I can't get the paragraph to align the same way as in the Figma example. */
+.item--stretched {
+  align-self: stretch;
+  justify-content: center;
+  align-items: center;
+}
+
+.item--center {
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: -1px;
+  font-weight: bold;
+  color: #001858;
+} 
+
+
+.card--center {
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item--middle {
+  width: 156px;
+}
